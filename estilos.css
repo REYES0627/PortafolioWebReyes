@@ -91,7 +91,10 @@ h2 {
   max-width: 100%;
   border-radius: 4px;
   align-items: center;
+  width: 550px;
+  height: 350px;
 }
+
 
 .habilidades {
   display: flex;
@@ -100,14 +103,24 @@ h2 {
 }
 
 .habilidades li {
-  background: #ddd;
+  background: #00f1e1;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   transition: background 0.3s;
 }
+section#habilidades.mostrar{
+  text-align: justify;
+  width: max-content;
+  margin: auto;
+  align-self: center;
+}
+h2{
+  text-align: center;
+}
+
 
 .habilidades li:hover {
-  background: #bbb;
+  background: #fbfbfb;
 }
 
 form {
@@ -119,7 +132,7 @@ form {
 
 input, textarea {
   padding: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ff0000;
   border-radius: 4px;
   font-family: 'Poppins', sans-serif;
 }
@@ -168,3 +181,22 @@ footer {
   .descripcion {
     max-width: 600px;
   }
+section#sobre-mi{
+  text-align: justify;
+  width: max-content;
+  margin: auto;
+  align-self: center;
+}
+/* --- Estilos para la sección contacto --- */
+
+section#contacto.mostrar{
+  text-align: justify;
+  width: max-content;
+  margin: auto;
+  align-self: center;
+}
+form#formulario-contacto{
+  width: 400px;
+  padding: auto;
+
+}
